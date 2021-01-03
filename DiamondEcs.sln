@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steslos.DiamondEcs", "Steslos.DiamondEcs\Steslos.DiamondEcs.csproj", "{0D6E0269-7E63-4186-A853-5A7966416AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steslos.DiamondEcs.Tests", "Steslos.DiamondEcs.Tests\Steslos.DiamondEcs.Tests.csproj", "{172E7132-ED4A-45AD-9B52-4E7778103F65}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6E0269-7E63-4186-A853-5A7966416AE0}.Debug|x64.ActiveCfg = Debug|x64
+		{0D6E0269-7E63-4186-A853-5A7966416AE0}.Debug|x64.Build.0 = Debug|x64
+		{0D6E0269-7E63-4186-A853-5A7966416AE0}.Release|x64.ActiveCfg = Release|x64
+		{0D6E0269-7E63-4186-A853-5A7966416AE0}.Release|x64.Build.0 = Release|x64
+		{172E7132-ED4A-45AD-9B52-4E7778103F65}.Debug|x64.ActiveCfg = Debug|x64
+		{172E7132-ED4A-45AD-9B52-4E7778103F65}.Debug|x64.Build.0 = Debug|x64
+		{172E7132-ED4A-45AD-9B52-4E7778103F65}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
