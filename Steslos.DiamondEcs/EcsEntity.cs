@@ -5,7 +5,7 @@
     /// </summary>
     public sealed class EcsEntity
     {
-        internal const int MaximumEntities = 5000;
+        public const int MaximumEntities = 5000;
 
         internal EcsSignature Signature { get; } = new EcsSignature();
     }
